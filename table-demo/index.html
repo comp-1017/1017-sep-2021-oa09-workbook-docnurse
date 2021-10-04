@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <!-- this is a comment-->
+
+    <head>
+    <!--this is an element where you can code support for the browser
+    to use in interpreting the web page.-->
+        <title> Table Demo </title>
+        <meta charset="utf-08">
+        <meta name="author" content ="DJ Lumbu-An">
+
+    </head>
+
+    <body>
+        <h1>Table Demo</h1>
+        <p> A table is a way of creating a structureed grid display of data.
+            The paired tags (open/close) we will be interested in are:
+        </p>
+        <ul> 
+            <li>&lt;table&gt; : identifies the start of the table </li>
+            <li>&lt;thead&gt; : identifies the header row of the table </li>
+            <li>&lt;tbody&gt; : identifies the data detail body of the table </li>
+            <li>&lt;tfoot&gt; : identifies the footer row of the table </li>
+            <li>&lt;tr&gt; : identifies the start of the row of the table </li>
+            <li>&lt;th&gt; : identifies the cell on the header row for the column </li>
+            <li>&lt;td&gt; : identifies the cell on the detail row or footer row to table </li>
+        </ul>
+        <p> Some tags have parameters. The border parameter of the table tag applies
+            a border around your table. The colspan parameter and rowspan parameter 
+            are use on the  &lt;td&gt; tab to allow you to merger cloumns on a single
+            row or column cels across rows.
+        </p>
+        <table border = "1">
+            <thead>
+            <tr>
+                <th> <image src="img/gator.png" alt="gator"> </image></th>
+                <th> Course# </th>
+                <th> Name</th>
+                <th> Hours</th>
+                <th> Pass Criteria</th>
+            </tr>
+            </thead>
+                <tbody>
+                    <tr>    
+                        <td> <image src="img/telephone.png" alt="telephone"></td>
+                        <td> <a href="#"> COMP1071</a></td>
+                        <td> Web Design Fundamentals 1</td>
+                        <td>60</td>
+                        <td>Overall 50%</td>                       
+                    </tr>
+                    <tr>    
+                        <td> <image src="img/money.png" alt="telephone"></image></td>
+                        <td> COMP1008</td>
+                        <td> Digital Graphic Design Tools</td>
+                        <td>60</td>
+                        <td>Overall 50%</td>                       
+                    </tr>
+                    <tr>    
+                        <td> <image src="img/computer.png" alt="telephone"></image></td>
+                        <td> CPSC1517</td>
+                        <td> Introduction to application Development</td>
+                        <td>90</td>
+                        <td>Overall &nbsp;&nbsp;50% and <b> minimum</b> 50% in <strong>Therory</strong> and <i>Project</i> <em></em>components<em></em></td>                                               
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        
+                        <td> Total Hours</td>
+                        <td></td>
+                        <td>120</td>
+                        <td></td>
+                    </tr>
+                </tfoot>            
+        </table>
+    </body>
+
+</html>
